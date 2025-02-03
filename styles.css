@@ -72,3 +72,41 @@ header ul {
     align-items: center;
     color: white;
 }
+
+#secondBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#secondBox h3 {
+    font-size: 30px;
+}
+
+#cardBox {
+    display: flex;
+    gap: 100px;
+    padding-bottom: 150px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    gap: 10px;
+}
+
+.cardImage {
+    border: solid 3px blue;
+    width: 200px;
+    height: 210px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+.card p {
+    margin: 0px;
+}
