@@ -134,3 +134,37 @@ header ul {
     font-size: 18px;
     font-weight: bold;
 }
+
+#fourthBox {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+#inside4Box {
+    display: flex;
+    gap: 200px;
+    background-color: #3B82F6;
+    padding: 50px 200px;
+    border-radius: 10px;
+}
+
+#inside4Box h3 {
+    color: white;
+    font-size: 32px;
+}
+
+#inside4Box p {
+    color: white;
+    font-size: 20px;
+}
+
+#inside4Box button {
+    align-self: center;
+    background-color: #3B82F6;
+    border: white 2px solid;
+    color: white;
+    padding: 5px 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
